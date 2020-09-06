@@ -1,10 +1,3 @@
-/**
-* Template Name: BizPage - v3.1.0
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -15,12 +8,12 @@ body {
 }
 
 a {
-  color: rgba(0,114,246,.8);
+  color: #E7C650;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: rgba(0,114,246,.8);
+  color: #E7C650;
   outline: none;
   text-decoration: none;
 }
@@ -41,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgba(0,114,246,.8);
+  background: #E7C650;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -95,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 3px;
   padding-left: 10px;
-  border-left: 4px dotted rgba(0,114,246,.8);
+  border-left: 4px dotted #E7C650;
 }
 
 #header .logo a {
@@ -144,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: rgba(0,114,246,.8);
+  color: #E7C650;
 }
 
 .nav-menu .drop-down ul {
@@ -180,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: rgba(0,114,246,.8);
+  color: #E7C650;
 }
 
 .nav-menu .drop-down > a:after {
@@ -275,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: rgba(0,114,246,.8);
+  color: #E7C650;
   text-decoration: none;
 }
 
@@ -396,11 +389,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (min-width: 1024px) {
-  #intro p {
-    /* width: 60%; */
-  }
-}
 
 #intro .carousel-fade {
   overflow: hidden;
@@ -467,8 +455,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started:hover {
-  background: rgba(0,114,246,.8);
-  border: 2px solid rgba(0,114,246,.8);
+  background: #E7C650;
+  border: 2px solid #E7C650;
 }
 
 /*--------------------------------------------------------------
@@ -1012,6 +1000,61 @@ section {
   background-color: #000;
 }
 
+/* Process Section
+--------------------------------*/
+#process {
+  padding: 60px 0 0px 0;
+}
+
+#process .container {
+  min-height: 400px;
+}
+
+#process h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+  color: #E7C650;
+}
+
+#process a {
+  padding: 0;
+  margin : 0;
+  margin-right: 30px;
+  padding-bottom: 6px;
+}
+
+#process p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+#process .nav, #process a:hover {
+  border:none;
+}
+
+#process .nav-item {
+  flex: none;
+  color: #666666;
+}
+
+
+#process .nav > .active {
+  color: #000;
+  background: transparent;
+  border: 0;
+  border-bottom: 5px solid #E7C650;
+}
+
+@media (min-width: 992px) {
+  #process a {
+    margin-right: 45px;
+  }
+}
+
+/*              Process Section
+--------------------------------*/
+
 /* Team Section
 --------------------------------*/
 #team {
@@ -1079,7 +1122,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: rgba(0,114,246,.8);
+  color: #E7C650;
 }
 
 #team .member .social i {
@@ -1114,7 +1157,7 @@ section {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: rgba(0,114,246,.8);
+  background: #E7C650;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1134,7 +1177,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid rgba(0,114,246,.8);
+  border: 3px solid #E7C650;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1148,11 +1191,11 @@ section {
 }
 
 #contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: rgba(0,114,246,.8);
+  background-color: #E7C650;
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: rgba(0,114,246,.8);
+  background: #E7C650;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1161,7 +1204,7 @@ section {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: rgba(0,114,246,.8);
+  background: #E7C650;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1225,7 +1268,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: rgba(0,114,246,.8);
+  background: #E7C650;
   color: #fff;
 }
 
@@ -1252,7 +1295,7 @@ section {
 }
 
 #footer .footer-top h4::after {
-  background: rgba(0,114,246,.8);
+  background: #E7C650;
   width: 60px;
 }
 
